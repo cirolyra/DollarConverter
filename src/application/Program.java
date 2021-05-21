@@ -17,9 +17,9 @@ public class Program {
 		System.out.println("How many dollar will be bought? ");
 		double quantity = sc.nextDouble();
 
-		double ressult = CurrencyConverter.calc(dollar, quantity);
+		double result = CurrencyConverter.calc(dollar, quantity);
 
-		System.out.printf("Amount to be paid in reais: R$ %.2f", ressult);
+		System.out.printf("Amount to be paid in reais: R$ %.2f", result);
 
 		sc.close();
 
